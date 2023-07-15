@@ -308,8 +308,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `role`, `first_name`, `last_name`, `phone`, `address`, `email`, `created_at`, `updated_at`) VALUES
-(8, 'admin', '202cb962ac59075b964b07152d234b70', 1, 'Phan', 'Dương', '0123456789', 'Đ. Cầu Diễn, Minh Khai, Bắc Từ Liêm, Hà Nội', 'techstore@gmail.com', '2023-06-17 08:32:06', '2023-06-20 02:21:27'),
-(9, 'hieu', '202cb962ac59075b964b07152d234b70', 0, 'Đào', 'Hiếu', '012345678', 'Đ. Cầu Diễn, Minh Khai, Bắc Từ Liêm, Hà Nội', 'stsieutrom@gmail.com', '2023-06-17 08:33:10', '2023-06-20 02:22:24');
+(8, 'admin', '202cb962ac59075b964b07152d234b70', 1, 'Phan', 'Dương', '0123456789', 'Đ. Cầu Diễn, Minh Khai, Bắc Từ Liêm, Hà Nội', 'techstore@gmail.com', '2023-06-17 08:32:06', '2023-06-20 02:21:27');
 
 --
 -- Chỉ mục cho các bảng đã đổ
