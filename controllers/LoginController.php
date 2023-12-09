@@ -99,7 +99,7 @@ require_once 'models/Order.php';
 							echo '<script>';
 							echo 'var result = window.confirm("Đến trang quản lý?");';
 							echo 'if (result) {';
-							echo '    window.location.href = "../backend/index.php";';
+							echo '    window.location.href = "backend/index.php";';
 							echo '} else {';
 							echo '    window.location.href = "index.php";';
 							echo '}';

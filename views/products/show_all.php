@@ -36,7 +36,7 @@
                                             <div class="left-block product-img image-resize">
 
                                                 <a href="<?php echo $product_link; ?>" title="<?php echo $product['title']; ?> - <?php echo $product['weight']; ?>">
-                                                    <img alt=" <?php echo $product['title']; ?> - <?php echo $product['weight']; ?> " src="../backend/assets/uploads/<?php echo $product['avatar']; ?>" />
+                                                    <img alt=" <?php echo $product['title']; ?> - <?php echo $product['weight']; ?> " src="./backend/assets/uploads/<?php echo $product['avatar']; ?>" />
                                                 </a>
                                                 <a href="<?php echo $product_link; ?>" class="mask-brg"></a>
                                                 <div class="hover-mask">

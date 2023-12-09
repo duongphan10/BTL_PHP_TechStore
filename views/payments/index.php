@@ -56,7 +56,7 @@ require_once 'helpers/Helper.php';
                                 <tr>
                                     <td style="padding-left: 10px;">
                                         <?php if (!empty($cart['avatar'])) : ?>
-                                            <img class="product-avatar img-responsive" src="../backend/assets/uploads/<?php echo $cart['avatar']; ?>" width="60" />
+                                            <img class="product-avatar img-responsive" src="./backend/assets/uploads/<?php echo $cart['avatar']; ?>" width="60" />
                                         <?php endif; ?>
                                         <div class="content-product">
                                             <a href="<?php echo $product_link; ?>" class="content-product-a">

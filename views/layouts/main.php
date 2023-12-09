@@ -365,7 +365,7 @@
                                     <?php foreach ($slides as $slide) : ?>
                                         <li>
                                             <a href="#">
-                                                <img src="../backend/assets/uploads/<?php echo $slide['avatar'] ?>" />
+                                                <img src="./backend/assets/uploads/<?php echo $slide['avatar'] ?>" />
                                             </a>
                                         </li>
                                     <?php endforeach; ?>

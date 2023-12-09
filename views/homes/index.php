@@ -15,7 +15,7 @@ require_once 'helpers/Helper.php';
                         <div class="banner_home">
                             <div class="banner-img-home">
                                 <a href="#">
-                                    <div class="img_banner_home" style="background-image: url(../backend/assets/uploads/<?php echo $compo_img['component_img'] ?>)">
+                                    <div class="img_banner_home" style="background-image: url(./backend/assets/uploads/<?php echo $compo_img['component_img'] ?>)">
                                     </div>
                                 </a>
                             </div>
@@ -67,7 +67,7 @@ require_once 'helpers/Helper.php';
                             <div class="product-item product-resize">
                                 <div class="product-img image-resize">
                                     <a href="<?php echo $product_link; ?>" title="<?php echo $product_title; ?>">
-                                        <img alt=" <?php echo $product_title; ?> " src="../backend/assets/uploads/<?php echo $product['avatar']; ?>" />
+                                        <img alt=" <?php echo $product_title; ?> " src="./backend/assets/uploads/<?php echo $product['avatar']; ?>" />
                                     </a>
                                     <a href="<?php echo $product_link; ?>" class="mask-brg"></a>
                                     <div class="hover-mask">
@@ -124,8 +124,8 @@ require_once 'helpers/Helper.php';
                 foreach ($compo_imgs as $compo_img) :
                 ?>
                     <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6 img_1 wow slideInLeft">
-                        <a class="fancybox" rel="group" href="../backend/assets/uploads/<?php echo $compo_img['store_img'] ?>">
-                            <div class="bkg-fancybox" style="background-image:url(../backend/assets/uploads/<?php echo $compo_img['store_img'] ?>);background-size:cover;cursor: pointer;">
+                        <a class="fancybox" rel="group" href="./backend/assets/uploads/<?php echo $compo_img['store_img'] ?>">
+                            <div class="bkg-fancybox" style="background-image:url(./backend/assets/uploads/<?php echo $compo_img['store_img'] ?>);background-size:cover;cursor: pointer;">
                             </div>
                         </a>
                     </li>
@@ -160,7 +160,7 @@ require_once 'helpers/Helper.php';
                                 <div class="img-news">
                                     <a href="<?php echo $new_link; ?>">
 
-                                        <img src="../backend/assets/uploads/<?php echo $new['avatar'] ?>" alt="<?php echo $new['title'] ?>">
+                                        <img src="./backend/assets/uploads/<?php echo $new['avatar'] ?>" alt="<?php echo $new['title'] ?>">
 
                                     </a>
                                 </div>

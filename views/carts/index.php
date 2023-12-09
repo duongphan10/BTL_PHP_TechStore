@@ -32,7 +32,7 @@ require_once 'helpers/Helper.php';
                     <tr>
                         <td style="padding-left: 10px;">
                             <img class="product-avatar img-responsive"
-                                 src="../backend/assets/uploads/<?php echo $cart['avatar']?>"
+                                 src="./backend/assets/uploads/<?php echo $cart['avatar']?>"
                                  width="80">
                             <div class="content-product" style="padding-top: 10px; font-size: 20px; font-weight: bold;">
                                 <a href="<?php echo $url_detail; ?>"

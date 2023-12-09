@@ -24,7 +24,7 @@
                                     <i class="fa fa-arrow-circle-o-right fa-2"></i>
                                 </a>
 
-                                <img class="product-image-feature" src="../backend/assets/uploads/<?php echo $product['avatar']; ?>" alt="<?php echo $product['title']; ?> - <?php echo $product['weight']; ?>">
+                                <img class="product-image-feature" src="./backend/assets/uploads/<?php echo $product['avatar']; ?>" alt="<?php echo $product['title']; ?> - <?php echo $product['weight']; ?>">
                             </div>
                         </div>
                     </div>

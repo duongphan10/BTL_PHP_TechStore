@@ -28,7 +28,7 @@ require_once 'helpers/Helper.php';
                                     <div class="news-item product-resize text-center">
                                         <div class="img-news image-resize">
                                             <a href="<?php echo $new_link; ?>">
-                                                <img src="../backend/assets/uploads/<?php echo $new['avatar']?>" alt="news">
+                                                <img src="./backend/assets/uploads/<?php echo $new['avatar']?>" alt="news">
                                             </a>
 
                                         </div>
